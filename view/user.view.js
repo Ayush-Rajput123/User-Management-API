@@ -134,7 +134,7 @@ router.get("/AND", async (req, res) => {
     }
 })
 
-//create a login route
+//login route
 router.post('/login', async (req, res) => {
     try {
 

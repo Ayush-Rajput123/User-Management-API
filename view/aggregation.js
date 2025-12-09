@@ -26,9 +26,6 @@ router.get("/aggregation", async (req, res)=>{
     }
 })
 
-
-//count the number of users, admins, superadmins 
-
 router.get("/roles", async (req, res)=>{
     try{
         const analytics = await User.aggregate(
